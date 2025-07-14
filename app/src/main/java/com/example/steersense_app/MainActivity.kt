@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
                     composable("splash") { SplashScreen(navController) }
                     composable("signup") { SignUpScreen(navController) }
                     composable("login") { LoginScreen(navController) }
+                    composable("dashboard") { DashboardScreen() } // ✅ Add this if missing!
+
+
 
                 }
             }

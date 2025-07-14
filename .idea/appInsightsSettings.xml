@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.steersense_app" />
+                  <option name="mobileSdkAppId" value="1:527771825503:android:bbb23c7f9b630a92f432ea" />
+                  <option name="projectId" value="steersense-5c0fa" />
+                  <option name="projectNumber" value="527771825503" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services) // ✅ Correct alias
 }
 
 android {
@@ -59,4 +60,6 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.6.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("com.google.firebase:firebase-auth:22.1.2")
+    implementation("com.google.firebase:firebase-firestore-ktx:24.9.1")
 }
